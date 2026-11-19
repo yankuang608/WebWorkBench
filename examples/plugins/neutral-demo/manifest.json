@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "apiVersion": "1.0",
+  "id": "neutral-demo",
+  "identity": "demo@0.1.0",
+  "components": [
+    {
+      "category": "suite",
+      "id": "demo-tasks",
+      "entry": "demo.mjs",
+      "export": "suite",
+      "apiVersion": "1.0",
+      "identity": "demo@0.1.0",
+      "capabilities": {
+        "targetKinds": [
+          "local-fixture"
+        ]
+      },
+      "catalog": "catalog.json"
+    },
+    {
+      "category": "environment",
+      "id": "demo-site",
+      "entry": "demo.mjs",
+      "export": "environment",
+      "apiVersion": "1.0",
+      "identity": "demo@0.1.0",
+      "capabilities": {
+        "targetKinds": [
+          "local-fixture"
+        ]
+      }
+    },
+    {
+      "category": "toolProfile",
+      "id": "demo-tools",
+      "entry": "demo.mjs",
+      "export": "profile",
+      "apiVersion": "1.0",
+      "identity": "demo@0.1.0",
+      "capabilities": {
+        "targetKinds": [
+          "local-fixture"
+        ],
+        "outputModalities": [
+          "text"
+        ]
+      }
+    },
+    {
+      "category": "harness",
+      "id": "demo-agent",
+      "entry": "demo.mjs",
+      "export": "harness",
+      "apiVersion": "1.0",
+      "identity": "demo@0.1.0",
+      "capabilities": {
+        "inputModalities": [
+          "text"
+        ],
+        "directTools": true,
+        "connectionKinds": []
+      }
+    }
+  ]
+}

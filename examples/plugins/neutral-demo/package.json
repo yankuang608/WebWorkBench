@@ -1,0 +1,15 @@
+{
+  "name": "@webworkbench/demo-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./demo.mjs",
+  "files": [
+    "demo.mjs",
+    "manifest.json",
+    "catalog.json"
+  ],
+  "webworkbench": {
+    "manifest": "manifest.json"
+  },
+  "license": "MIT"
+}

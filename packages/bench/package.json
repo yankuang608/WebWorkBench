@@ -1,0 +1,28 @@
+{
+  "name": "@webworkbench/bench",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "cli": "node --import tsx src/cli.ts",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.0",
+    "yaml": "2.8.3",
+    "typescript": "5.9.3",
+    "@webworkbench/adapter-api": "workspace:*"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "webworkbench": "./dist/cli.js"
+  },
+  "license": "MIT"
+}

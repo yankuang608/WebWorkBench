@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "4.0",
+  "id": "neutral-demo",
+  "suiteRef": {
+    "adapter": "demo-tasks"
+  },
+  "agents": {
+    "local": {
+      "harness": {
+        "adapter": "demo-agent"
+      },
+      "model": {
+        "name": "local-deterministic",
+        "inputModalities": [
+          "text"
+        ]
+      }
+    }
+  },
+  "environments": {
+    "site": {
+      "adapter": "demo-site",
+      "variant": "local-fixture"
+    }
+  },
+  "toolProfiles": {
+    "tools": {
+      "adapter": "demo-tools"
+    }
+  },
+  "experiments": [
+    {
+      "id": "local",
+      "agent": "local",
+      "environment": "site",
+      "toolProfile": "tools"
+    }
+  ],
+  "plugins": [
+    {
+      "manifest": "examples/plugins/neutral-demo/manifest.json"
+    }
+  ],
+  "repetitions": 2
+}

@@ -1,0 +1,177 @@
+{
+  "scope": "neutral-source-and-synthetic-demo-only",
+  "published": false,
+  "licenseAssigned": "MIT-original-code-only",
+  "inputPolicy": "No git history, private evidence, application fixtures or binary SDK artifacts. Selected neutral code and synthetic demo; adjusted package/CLI/build surface.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "ecf212f2caeef4b033e75a96e054257445102062716a7bd31de73c460a22f00f"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "1c5533ec7256697bcc2d278eb5ddb46a78a47ca351539ed001abdfd60cc70e54"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "9f8687205c2730cc10712828b9a2031f6bd99e7c184d480bc366820336db47cf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8c16057cf8cde20e7bd15a02d3cc3cc9227fb6fe47ba7fd035910603734cf463"
+    },
+    {
+      "path": "examples/jobs/neutral-demo.json",
+      "sha256": "a52585f2f67f24dab224f51cd47d07b8a82e81f202202ab25e99a52848d05c3e"
+    },
+    {
+      "path": "examples/plugins/neutral-demo/catalog.json",
+      "sha256": "65f99e7acc002b1325b0e3f4a1988d317a406ed81d9377eeefd926d2641e492b"
+    },
+    {
+      "path": "examples/plugins/neutral-demo/demo.mjs",
+      "sha256": "46bb3e4e20001dc317249684079bdb4003d055b3072fefa7ebe503e7c01db15c"
+    },
+    {
+      "path": "examples/plugins/neutral-demo/manifest.json",
+      "sha256": "9d571110f2bdf0c80684f5843bc18e24be5a1916187916cd68fa0453a72dc864"
+    },
+    {
+      "path": "examples/plugins/neutral-demo/package.json",
+      "sha256": "0e6c56180f441c9200c46733d88a65323ff82ff37d5c39b8193fca997e30c421"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b9a9c15a5e1432f27f6a9cc8af8d44f24151c5935dd993cb541d1b4c642d35e9"
+    },
+    {
+      "path": "packages/adapter-api/package.json",
+      "sha256": "10963adbd38f77316ad6e76ec02485f8df3a1204451e4e5ab666b92d9d4d4203"
+    },
+    {
+      "path": "packages/adapter-api/src/index.ts",
+      "sha256": "dfc162bd5a1a8668f9249b5389b62f6861e9e25cda2bcfd36a3206f4f56b13e7"
+    },
+    {
+      "path": "packages/bench/package.json",
+      "sha256": "71ee243df3af79017d6f8c71b728591b9c0e0ddddabebc1933a077ed67d1088f"
+    },
+    {
+      "path": "packages/bench/src/bin.ts",
+      "sha256": "43d220625865ae40340297d51604a5f0edf8f3c10aa39752de796ea02c9566e2"
+    },
+    {
+      "path": "packages/bench/src/catalog.ts",
+      "sha256": "3ab09c0fa86ef4ff06f1e0625295318e4ea7dc32ccad5745d20e807e1a108a7e"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/audit.ts",
+      "sha256": "5218417f59090dbbb7338f346197ea978c34c05bbe2e25af99ba3dd16733c017"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/deadline.ts",
+      "sha256": "bb6114d763f2e303ddf22ad90fbd384c632e6c2e6eb4a2e55b3a29febc375384"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/loader.ts",
+      "sha256": "0863ef7ab0d6f18c4344d381cff478182780d789dd6f134f89ea9de3807bd1bb"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/locks.ts",
+      "sha256": "3393779565313515cb89e8d97e7b1d0a0abace2a5a09b9cdc0c28ec15ae3c526"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/run.ts",
+      "sha256": "c616cad3ef3ed0eaa9802077a03061be86fd301efd761b4519db28d7203ba8ef"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/runtime.ts",
+      "sha256": "524ba1f9a1e644b1f8089fb2ea3fcfae2e54d46f67e533555661051153e3bec0"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/security.ts",
+      "sha256": "650ab71b674201ef99f08fd56aba252d2308a3998d78c4521482067b52596f57"
+    },
+    {
+      "path": "packages/bench/src/core-runtime/worker.ts",
+      "sha256": "99473e86b7148535901edcc174f97dfed3e8fca5304fb5572bfffa9c96fe2e24"
+    },
+    {
+      "path": "packages/bench/src/experiment-config.ts",
+      "sha256": "acdf616cc9cebb840f680c4a4db2f262dd4c1deed09fbe60207767f8d01564e7"
+    },
+    {
+      "path": "packages/bench/src/index.ts",
+      "sha256": "fb63fcdf1518936db3a13bb5685537b76980c647392e6729650493c0dfe2a3e1"
+    },
+    {
+      "path": "packages/bench/src/job-config.ts",
+      "sha256": "7e21ca9702e9e1cfd5f6b46c9db6d1f1bd67dd72e53bb7269c345125f805d4b4"
+    },
+    {
+      "path": "packages/bench/src/job-ledger.ts",
+      "sha256": "13c092f3a1325c0d4bbc3550a2e0b4d30d2b66317fec0f94b4aa9be7504653d3"
+    },
+    {
+      "path": "packages/bench/src/job-plan.ts",
+      "sha256": "45cf1d5c00c1b0cc5fe65ab1055219ab29096cd46a18725d5767a8d38f4bcf35"
+    },
+    {
+      "path": "packages/bench/src/neutral-cli.ts",
+      "sha256": "7b7637ff22c2dff6d735574959d57b689313026cf41fde63b5aa9599c886a3ea"
+    },
+    {
+      "path": "packages/bench/src/neutral-config.ts",
+      "sha256": "285c7b8ce3024dade6bf7eecff789b70c61c3cbe7cd638c3f4a9a690e2cb198b"
+    },
+    {
+      "path": "packages/bench/src/neutral-ledger.ts",
+      "sha256": "5e8ec5ffac288ff365b467c42002ba1282efa44cde3da843d2216eab416fb87b"
+    },
+    {
+      "path": "packages/bench/src/neutral-plan.ts",
+      "sha256": "88ef5321725ff3b94f02730a014a06091660d52f930f83d3cbddb193e6aa3f23"
+    },
+    {
+      "path": "packages/bench/src/neutral-report.ts",
+      "sha256": "59bb661f9aee76a49b1cae675620d6f932aedd7e9890dae784d0abc6665e1d94"
+    },
+    {
+      "path": "packages/bench/src/schema.ts",
+      "sha256": "68e5f0cc5e797f5792a3f3f92dbfce965b135d84c160053493132be1e8fd263d"
+    },
+    {
+      "path": "packages/report/src/job-export.ts",
+      "sha256": "b9bff3e864c82a86f3095f2128d77ae1f55551aa978934df13237fb5761c39f7"
+    },
+    {
+      "path": "packages/report/src/redaction.ts",
+      "sha256": "422762a33b55d64078b3ddab9c7d3560065522242594422b688655259b26e882"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "e68c52d20ec5af0a80d8b6b770618db8134e23df25c0508a69547502b0af30f9"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sha256": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+    },
+    {
+      "path": "scripts/build-public.ts",
+      "sha256": "c09c5b62c7315b3f2f6085e29bf89856a198a188423fbc1ecc06601ccf021d97"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "1a1acf5aba14ac4c181c8276f5b4a80c407eab87ae2b867d2f9dea4a16e664ca"
+    }
+  ],
+  "verification": {
+    "sourceLogic": "unchanged from tested synthetic-only staging",
+    "priorTypecheck": "passed",
+    "priorBuild": "passed",
+    "priorSyntheticTrials": "4/4 passed; deterministic local fixtures only",
+    "licenseAndDisclosureScan": "passed",
+    "cloudRecheck": "blocked before typecheck/build: offline cache missing yaml 2.8.3; not a test pass",
+    "publicRepositoryCreated": false
+  }
+}

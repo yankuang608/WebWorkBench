@@ -1,0 +1,34 @@
+{
+  "name": "webworkbench-public-preview",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.30.2",
+  "scripts": {
+    "bench": "node --import tsx packages/bench/src/bin.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "node --import tsx scripts/build-public.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "0.28.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "@webworkbench/adapter-api": "workspace:*"
+  },
+  "dependencies": {
+    "zod": "^3.25.0",
+    "yaml": "2.8.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@modelcontextprotocol/sdk": "1.31.0",
+      "ajv": "8.20.0",
+      "ws": "8.22.0",
+      "zod": "3.25.76",
+      "@types/ws": "8.18.2"
+    }
+  },
+  "license": "MIT"
+}

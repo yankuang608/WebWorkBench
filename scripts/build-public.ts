@@ -1,0 +1,2 @@
+import {build} from 'tsup';
+for(const name of ['adapter-api','bench'])await build({entry:name==='bench'?{index:'packages/bench/src/index.ts',cli:'packages/bench/src/bin.ts',worker:'packages/bench/src/core-runtime/worker.ts'}:{index:'packages/adapter-api/src/index.ts'},outDir:'packages/'+name+'/dist',format:['esm'],platform:'node',target:'es2022',dts:true,clean:true,splitting:false,external:['zod','yaml','typescript','@webworkbench/adapter-api']});

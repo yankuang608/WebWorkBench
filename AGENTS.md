@@ -1,0 +1,1 @@
+Read README before use. Original code is MIT; retain third-party notices and licenses. Publication requires explicit authorization. Do not add private data or run paid evaluations. Use the synthetic demo only. No real application runtime is included.
